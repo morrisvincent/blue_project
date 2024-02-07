@@ -1,0 +1,302 @@
+/* Color: #1566C0 */
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3{font-family: 'Righteous', sans-serif;
+}
+
+h1{
+
+    font-size: 100px;
+
+}
+
+.grandezzat{
+
+    font-size: 30px;
+
+}
+
+
+.titolo2{Color: #1566C0; }
+
+
+.testogrigio {
+
+    color: #6e747d;
+}
+
+header{
+    height: 100vh;
+    background:linear-gradient(black,rgba(0, 0, 0, 0.078)), url(./media/header.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+    
+   
+
+    
+}
+
+.button-37 {
+  margin-left:3rem ;
+  background-color: #eeb808;
+  border: 1px solid #f1c30c;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #1d1d1d;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 45px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+
+.ondagrigia{
+    
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    bottom: 3%;
+  
+
+}
+
+.ondabianca{
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    
+    
+}
+
+.textheader{
+  
+    height: 20vh;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+/* CARD 1 */
+
+.sezione1{
+    height: 50vh;
+
+}
+
+i{
+    font-size: larger;
+}
+
+
+#bgc1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%), url(./media/1.png);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;   
+}
+
+#bgc2 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%), url(./media/2.png);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+}
+
+#bgc3 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%), url(./media/3.png);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+}
+
+#bgc4 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%), url(./media/4.png);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.bordo-giallo{
+    height: 3px;
+    background-color: #eeb808;
+}
+
+
+/* .ctborder{
+
+    border-bottom: 5px solid Color #1566C0 !important;
+
+} */
+
+.fuoco {color: #c8454b;}
+.pianta {color: #448558} 
+.campana {color: #f4c344} 
+.scatola {color: #005cf3} 
+.ramo {color: #6e747d} 
+.scudo {color: #222529}
+
+
+.icona {
+    
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+   
+
+}
+
+.separatore{
+
+    height: 30vh;
+    background: transparent;
+
+
+}
+
+.separatore1{
+
+    height: 10vh;
+    background: transparent;
+}
+
+
+.box{
+    border: 0.1px solid rgba(177, 177, 177, 0.594) ;
+    border-radius: 15px;
+    box-shadow:  rgba(0, 0, 0, .1) 5px 10px 10px 0px;
+    padding: 30px;
+  
+}
+
+.icona2{
+    color: #005cf3;
+    font-size: 40px;
+}
+
+.imgs6{
+    height: 400px;
+    width: 400px;
+    border:  8px solid #1566C0;
+    border-radius: 50%;
+    padding: 2.5%;
+}
+
+.marginl{
+    border-right: 5px solid #1566C0;
+}
+
+.altezza{
+    height: 25vh;
+}
+
+.pallino1::before{
+    content:'';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #1566C0;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: -28px;
+}
+
+.pallino2::before{
+    content:'';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #1566C0;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: -28px;
+}
+
+.button-38 {
+    margin-top: 0px;
+    background-color: #1566C0;
+    border: 1px solid #1566C0;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 8px 60px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-38:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
+
+  footer{
+    background-image:linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8323923319327731) 18%, rgba(255,255,255,0.2049413515406162) 52%, rgba(0,0,0,0.7455575980392157) 75%, rgba(0,0,0,0.894016981792717) 100%),url(./media/footer.jpg);
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  }
+
+  .altezzafooter{
+    height: 80vh;
+    
+  }
+
+  .titolofooter{
+
+    color: #eeb808;
+  }
+
+
+
+
+
+
+/* Bottone */
+
+@media (min-width: 768px) {
+    .button-37 {
+      padding: 10px 30px;
+    }
+  }
+
